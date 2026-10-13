@@ -1,0 +1,3 @@
+# Check out every file with the bytes it was committed with:
+# no CRLF line endings on Windows, the same checksums on every laptop.
+* -text
