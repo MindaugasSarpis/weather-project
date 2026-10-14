@@ -20,3 +20,15 @@ mean temperatures typed into a spreadsheet from it.
   2025, exported from a spreadsheet.
 - **Source:** the station's operator, by e-mail
 - **Received:** 2026-10-13
+
+## Columns of `weather.csv`
+
+| Column | Meaning | Unit |
+|--|--|--|
+| `time` | start of the hour | ISO 8601 |
+| `temp_c` | air temperature | °C |
+| `humidity_pct` | relative humidity | % |
+| `wind_ms` | wind speed | m/s |
+
+Missing value: `temp_c` is `-999` in 120 rows, 2019-07-22 to 07-26, when
+the temperature sensor was down.
