@@ -32,3 +32,14 @@ mean temperatures typed into a spreadsheet from it.
 
 Missing value: `temp_c` is `-999` in 120 rows, 2019-07-22 to 07-26, when
 the temperature sensor was down.
+
+## How to rebuild
+
+In the project folder, in zsh on macOS or Git Bash on Windows, with Python
+from Miniforge; the script needs no package beyond it.
+
+    ./scripts/rebuild.sh
+
+It writes `data/processed/weather_valid.csv`, `weather.csv` without the
+120 rows marked `-999` (87 553 lines), and `data/processed/daily.csv`, the
+cleaned export (148 bytes).
