@@ -33,6 +33,11 @@ mean temperatures typed into a spreadsheet from it.
 Missing value: `temp_c` is `-999` in 120 rows, 2019-07-22 to 07-26, when
 the temperature sensor was down.
 
+## Result
+
+Mean `temp_c`, 2016 to 2025: **7.16 °C**, over 87 552 hours. The 120 hours
+marked `-999` are left out. The script writes it to `results/temp_c.txt`.
+
 ## How to rebuild
 
 In the project folder, in zsh on macOS or Git Bash on Windows, with Python
