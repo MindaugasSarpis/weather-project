@@ -48,3 +48,8 @@ from Miniforge; the script needs no package beyond it.
 It writes `data/processed/weather_valid.csv`, `weather.csv` without the
 120 rows marked `-999` (87 553 lines), and `data/processed/daily.csv`, the
 cleaned export (148 bytes).
+
+## Licence
+
+Data: CC0, from the station's operator. Scripts and text: MIT, see
+`LICENSE`.
