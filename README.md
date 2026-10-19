@@ -35,8 +35,8 @@ the temperature sensor was down.
 
 ## Result
 
-Mean `temp_c`, 2016 to 2025: **7.16 °C**, over 87 552 hours. The 120 hours
-marked `-999` are left out. The script writes it to `results/temp_c.txt`.
+Mean `temp_c`, 2016 to 2025: **5.78 °C**, over all 87 672 hours of
+`weather.csv`. The script writes it to `results/temp_c.txt`.
 
 ## How to rebuild
 
